@@ -19,7 +19,6 @@ function deadline(){
   document.getElementById("secondId").innerHTML =  seconds + "s ";
 
   if (remaining <= 0) {
-  	      swal("Deadline is over!", "You had no other chance to submit", "error");
           document.getElementById("mainclock").style.display="none";
     clearInterval(x);
     document.getElementById("demo").innerHTML = "Deadline is over";
